@@ -1,1 +1,1 @@
-# Fake_News_Project
+# Deep Learning Project - Fake News Classification
