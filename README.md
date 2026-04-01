@@ -1,8 +1,12 @@
-# Fake News Detection Model Comparison
+# Fake News Detection — Model Comparison & Hyperparameter Experiments
+
+This project train and evaluate five for fake news classification, selects the best-performing model (PyTorch MLP), and conducts in-depth hyperparameter experiments with full visualization support.
 
 ---
 
-## 1. Project structure
+## Part 1: Model Comparison
+
+### 1. Project structure
 
 - `fakenews.csv`           
   Original dataset
@@ -36,24 +40,24 @@
   
 ---
 
-## 2. Environment configuration
+### 2. Environment configuration
 
-### 2.1 Create a virtual environment (recommended)
+**2.1 Create a virtual environment (recommended)**
 ```bash
 python -m venv venv
 .venv\Scripts\activate
 ```
 
-### 2.2 Install dependency packages
+**2.2 Install dependency packages**
 ```bash
 pip install -r requirements.txt
 ```
 
 ---
 
-## 3. Program running
+### 3. Program running
 
-### 3.1 Model training and comparison (time-consuming)
+**3.1 Model training and comparison (time-consuming)**
 
 ```bash
 python model_comparison.py
@@ -67,7 +71,7 @@ The script will automatically:
 4. Save the results to model_results.json
 5. Output the final performance ranking in the console
 
-### 3.2 Visualization of the comparison table between the prediction results of the best model and the actual labels on the first 100 test data
+**3.2 Visualization of the comparison table between the prediction results of the best model and the actual labels on the first 100 test data**
 
 ```bash
 python visualize_results.py
@@ -76,3 +80,11 @@ python visualize_results.py
 The script will automatically:
 
 Generate a comparison table of the prediction results of the best model on the first 100 test data with the actual labels and save the image to the results_plots folder.
+
+---
+
+## Bridge: Why PyTorch MLP?
+
+Based on the results recorded in `model_results.json`, **PyTorch MLP achieves the best overall performance** among all five models, balancing accuracy and inference efficiency. It is therefore selected as the foundation for the hyperparameter experiments in Part 2.
+
+---
