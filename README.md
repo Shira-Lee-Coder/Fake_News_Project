@@ -87,9 +87,6 @@ Generate a comparison table of the prediction results of the best model on the f
 
 PyTorch MLP was selected as the best-performing model from Part 1. This module conducts systematic hyperparameter experiments on it and visualizes the training results. All figures are saved automatically to the `figures/` folder after running.
 
-This module handles hyperparameter experiments and training result visualizations.
-All figures are saved automatically to the `figures/` folder after running.
-
 ---
 
 ### ▶️ Run
@@ -100,9 +97,9 @@ python performance_comparison.py
 
 ---
 
-### 🔬 Experiments Overview
+### Experiments Overview
 
-**Baseline Training Curve (Fig 1 & 2)**
+**Baseline Training Curve (Fig 1 & 2):**
 Single run with default hyperparameters for each loss function.
 
 ```python
@@ -111,7 +108,7 @@ Single run with default hyperparameters for each loss function.
 # Fixed: LR = 0.001, Batch Size = 32
 ```
 
-**Learning Rate Comparison (Fig 3 & 4)**
+**Learning Rate Comparison (Fig 3 & 4):**
 Trains the model across 4 different learning rates and compares results side by side.
 
 ```python
@@ -119,7 +116,7 @@ lr_list = [0.1, 0.01, 0.001, 0.0001]
 # Fixed: Batch Size = 32
 ```
 
-**Batch Size Comparison (Fig 5 & 6)**
+**Batch Size Comparison (Fig 5 & 6):**
 Trains the model across 5 different batch sizes and compares results side by side.
 
 ```python
