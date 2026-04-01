@@ -1,6 +1,6 @@
 # Fake News Detection — Model Comparison & Hyperparameter Experiments
 
-This project train and evaluate five for fake news classification, selects the best-performing model (PyTorch MLP), and conducts in-depth hyperparameter experiments with full visualization support.
+This project train and evaluate five models for fake news classification, selects the best-performing model (PyTorch MLP), and conducts in-depth hyperparameter experiments with full visualization support.
 
 ---
 
