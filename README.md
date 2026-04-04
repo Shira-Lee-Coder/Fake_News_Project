@@ -92,7 +92,7 @@ PyTorch MLP was selected as the best-performing model from Part 1. This module c
 ### ▶️ Run
 
 ```bash
-python performance_comparison.py
+python performance_visualization.py
 ```
 
 ---
