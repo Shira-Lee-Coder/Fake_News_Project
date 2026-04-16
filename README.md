@@ -38,7 +38,7 @@ Uses train_test_split to randomly partition the data into training and testing s
 
 ### 2. New data visualization: real news vs fake news
 
-<img width="4860" height="2528" alt="news_wordcloud_comparison" src="https://github.com/user-attachments/assets/0bbe3915-9f9c-4ac1-bcf0-9295cfea5c6c" />
+<img width="4860" height="2528" alt="news_wordcloud_comparison" src="https://github.com/user-attachments/assets/b3296548-7f1f-49c1-ab0a-3a2c30b5c767"/>
 
 ---
 
@@ -47,7 +47,7 @@ Uses train_test_split to randomly partition the data into training and testing s
 Since the initial weights of PyTorch are randomly generated, this resulted in the two models having the same accuracy in the presentation PPT. The code has been re-run to update the results, as shown in the figure below:
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/d0318e59-57b9-4b21-8958-45896c61f00d" width="800px">
+  <img src="https://github.com/user-attachments/assets/05a98a9c-ac98-4a6d-84c1-1d6224bb4de3" width="800px">
   <br>
   <i>Figure 1: Model Running Results</i>
 </p>
