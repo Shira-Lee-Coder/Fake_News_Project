@@ -63,7 +63,7 @@ def generate_detailed_visualization():
     
     # 2. Read the best model name
     if not os.path.exists(JSON_FILE):
-        print(f"❌ 错误：找不到 {JSON_FILE}。请先运行 model_comparison.py 生成结果。")
+        print(f"Error: {JSON_FILE} not found. Please run model_comparison.py first to generate the results.")
         return
     
     with open(JSON_FILE, 'r', encoding='utf-8') as f:
