@@ -44,6 +44,8 @@ Uses train_test_split to randomly partition the data into training and testing s
 
 ### 3. New data visualization: model comparision
 
+Since the initial weights of PyTorch are randomly generated, this resulted in the two models having the same accuracy in the presentation PPT. The code has been re-run to update the results, as shown in the figure below:
+
 <p align="center">
   <img src="https://github.com/user-attachments/assets/d0318e59-57b9-4b21-8958-45896c61f00d" width="800px">
   <br>
